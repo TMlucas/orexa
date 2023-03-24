@@ -1,37 +1,11 @@
-/* import de la police Old English Text MT */
-@import url(//db.onlinewebfonts.com/c/f3258385782c4c96aa24fe8b5d5f9782?family=Old+English+Text+MT);
+
 
 /* Style pour le corps de la page */
 body {
-    font-family: "Old English Text MT", src;
     background-color: #f2f2f2;
     margin: 0;
 }
 
-/* style pour le menu déroulant */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  color: white;
-  cursor: pointer;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  background-color: #333;
-  padding: 5px;
-  box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.0);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #444;
-}
 
 /* Style pour le titre principal */
 h1 {
