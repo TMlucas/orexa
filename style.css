@@ -2,43 +2,25 @@
 
 /* Style pour le corps de la page */
 body {
-    background-color: #f2f2f2;
+    background-color: #e6e6e6;
     margin: 0;
 }
 
 
 /* Style pour le titre principal */
 h1 {
-    color: #333;
+    color: #00664d;
     font-size: 36px;
 }
 
-/* Style pour la navigation */
-nav {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    position: center
-}
-
-nav ul li {
-    margin: 0 10px;
-    position: center;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    position: center
-}
+fieldset {
+	font-size: 36px;
+ }
+form {
+	padding : 20px;
+	background-color: #00664d;
+	
+	}
 
 /* Style pour les sections */
 section {
