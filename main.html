@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="fr">
+	<link href="style.css" rel="stylesheet">
 <head>
 	<meta charset="UTF-8">
 	<title>Serious Game</title>
@@ -9,17 +10,22 @@
 	<header>
     <center>
 		  <h1>Serious Game</h1>
-    </center>
-		<nav>
-			<ul>
-	<li><a href="main.html">Accueil</a></li>
-        <li><a href="agigreen.html">AGI GREEN</a></li>
-        <li><a href="agilog.html">AGI LOG</a></li>
-			</ul>
-		</nav>
-	</header>
+	</center>	  
+<main>
+	<center>
+ <h1>Identification requise</h1>
+    <form action="verification.php" method="POST">
+      <label for="identifiant">Identifiant :</label>
+      <input type="text" id="identifiant" name="identifiant" required><br>
 
+      <label for="motdepasse">Mot de passe :</label>
+      <input type="password" id="motdepasse" name="motdepasse" required><br>
 
+      <input type="submit" value="Connexion">
+    </form>
+</main>
+	</center>
+	
 	<footer>
   <br></br>
     <center>
