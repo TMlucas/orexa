@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<link href="style.css" rel="stylesheet">
+<head>
+	<meta charset="UTF-8">
+	<title>Serious Game</title>
+</head>
+<body>
+	<header>
+    <center>
+		  <h1>Serious Game</h1>
+    </center>
+		<nav>
+			<ul>
+	<li><a href="main.html">Accueil</a></li>
+        <li><a href="agilean.html">AGI LEAN</a></li>
+        <li><a href="agilog.html">AGI LOG</a></li>
+			</ul>
+		</nav>
+	</header>
+<main>
+    <section>
+    <h2>Passer une commande</h2>
+      <form>
+          <label for="numero-commande">Numéro de commande:</label>
+          <input type="number" min="0" id="numero-commande" name="numero-commande" step="1" required><br>
+
+          <label for="type-commande">Type de commande :</label>
+          <select id="type-commande" name="type-commande" required>
+              <option value="CCO">CCO</option>
+              <option value="CCF">CCF</option>
+              <option value="CLO">CLO</option>
+              <option value="CLF">CLF</option>
+          </select><br>
+
+
+          <label for="options">Options:</label>
+          
+          <input type="checkbox" id="accroche" name="options" value="accroche">
+          <label for="accroche">Accroche</label>
+          
+          <input type="checkbox" id="crochet" name="options" value="crochet">
+          <label for="crochet">Crochet</label>
+          
+          <input type="checkbox" id="antenne" name="options" value="antenne">
+          <label for="antenne">Antenne</label><br>
+
+		<input type="submit" value="Soumettre">
+        </form>
+        
+        <h2>Manque de pièce :</h2>
+        <form>
+			<label for="piece-manquante">Numéro de la pièce manquante:</label>
+			<input type="number" min="0" id="piece-manquante" name="piece-manquante" step="1" required>
+			
+			<input type="submit" value="Ajouter">
+        </form>
+    </section>
+    
+    <section>
+    <h2>Répertoire</h2>
+	<table>
+	  <thead>
+		<tr>
+		  <th>Commande n°</th>
+		  <th>Etat</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td>001</td>
+		  <td>En attente</td>
+		</tr>
+		<tr>
+		  <td>002</td>
+		  <td>En cours de traitement</td>
+		</tr>
+		<tr>
+		  <td>003</td>
+		  <td>Expédiée</td>
+		</tr>
+	  </tbody>
+	</table>
+	</section>
+	</main>
+	<footer>
+  <br></br>
+    <center>
+		<p>Copyright ©Gadz.org 1843-2023</p>
+    </center>
+	</footer>
+</body>
+</html>
